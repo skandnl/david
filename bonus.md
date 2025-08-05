@@ -85,8 +85,6 @@ OS와 Python 버전에 따라 달라지므로 공유할 필요 없음
 
 🔹 GitHub Python .gitignore 템플릿 주요 항목
 plaintext
-복사
-편집
 __pycache__/
 *.py[cod]
 .venv/
@@ -96,8 +94,6 @@ dist/
 *.egg-info/
 🔹 Flask 기반 프로젝트에서 추가할 항목
 plaintext
-복사
-편집
 instance/
 *.db
 *.log
