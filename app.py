@@ -2,13 +2,13 @@ from flask import Flask, render_template
 
 app = Flask(__name__)
 
-
 @app.route('/')
 def home():
-    return "<h1>메인 페이지</h1><p>/menu 로 이동하면 메뉴판을 볼 수 있습니다.</p>"
+    return "<h1>메인 페이지</h1><p><a href='/menu'>메뉴판 보러가기</a></p>"
 
 @app.route('/menu')
 def menu():
+    # menu.html을 templates 폴더에서 불러옴
     return render_template('menu.html')
 
 if __name__ == '__main__':
