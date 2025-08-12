@@ -3,7 +3,9 @@ import socket  # ✅ socket 모듈 추가
 
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/test1s')
+def test1():
+    return render_template('test1.html')
 def home():
     # ✅ debug 모드에 따라 컴퓨터 이름 표시
     if app.debug:
