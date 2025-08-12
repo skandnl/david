@@ -4,9 +4,11 @@ import socket  # ✅ socket 모듈 추가
 app = Flask(__name__)
 
 
-@app.route('/test2')
+
+@app.route('/test7')
 def test():
-    return render_template('test.html')
+    return render_template('test7.html')
+
 
 
 def home():
