@@ -5,9 +5,9 @@ app = Flask(__name__)
 
 
 
-@app.route('/test7')
+@app.route('/test')
 def test():
-    return render_template('test7.html')
+    return render_template('test.html')
 
 
 
